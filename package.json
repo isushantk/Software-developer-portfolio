@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sushantkumar.github.io/Software-portfolio",
+  "homepage": "https://isushantk.github.io/Software-developer-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
