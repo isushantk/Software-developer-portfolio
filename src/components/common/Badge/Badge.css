@@ -1,0 +1,68 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-xs) var(--space-md);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: all var(--duration-fast) var(--ease-out);
+}
+
+/* Default */
+.badge--default {
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+
+/* Primary */
+.badge--primary {
+    background: rgba(0, 212, 255, 0.1);
+    color: var(--accent-primary);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+/* Secondary */
+.badge--secondary {
+    background: rgba(123, 97, 255, 0.1);
+    color: var(--accent-secondary);
+    border: 1px solid rgba(123, 97, 255, 0.3);
+}
+
+/* Success */
+.badge--success {
+    background: rgba(0, 255, 136, 0.1);
+    color: var(--success);
+    border: 1px solid rgba(0, 255, 136, 0.3);
+}
+
+/* Warning */
+.badge--warning {
+    background: rgba(255, 170, 0, 0.1);
+    color: var(--warning);
+    border: 1px solid rgba(255, 170, 0, 0.3);
+}
+
+/* Sizes */
+.badge--sm {
+    padding: 2px var(--space-sm);
+    font-size: 0.7rem;
+}
+
+.badge--lg {
+    padding: var(--space-sm) var(--space-lg);
+    font-size: 0.85rem;
+}
+
+/* Hover */
+.badge--hoverable:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* With icon */
+.badge__icon {
+    font-size: 0.9em;
+}

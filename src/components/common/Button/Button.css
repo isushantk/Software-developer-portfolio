@@ -1,0 +1,80 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    padding: var(--space-md) var(--space-xl);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all var(--duration-fast) var(--ease-out);
+    text-decoration: none;
+}
+
+/* Primary Button */
+.btn--primary {
+    background: var(--accent-gradient);
+    color: var(--bg-primary);
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+}
+
+.btn--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(0, 212, 255, 0.4);
+}
+
+.btn--primary:active {
+    transform: translateY(0);
+}
+
+/* Secondary Button */
+.btn--secondary {
+    background: transparent;
+    color: var(--accent-primary);
+    border: 1px solid var(--accent-primary);
+}
+
+.btn--secondary:hover {
+    background: rgba(0, 212, 255, 0.1);
+    box-shadow: var(--glow-primary);
+}
+
+/* Ghost Button */
+.btn--ghost {
+    background: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.btn--ghost:hover {
+    color: var(--text-primary);
+    border-color: var(--text-secondary);
+    background: var(--bg-tertiary);
+}
+
+/* Icon Button */
+.btn--icon {
+    padding: var(--space-md);
+    border-radius: 50%;
+}
+
+/* Sizes */
+.btn--sm {
+    padding: var(--space-sm) var(--space-md);
+    font-size: 0.8rem;
+}
+
+.btn--lg {
+    padding: var(--space-lg) var(--space-2xl);
+    font-size: 1rem;
+}
+
+/* Disabled State */
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none !important;
+}
