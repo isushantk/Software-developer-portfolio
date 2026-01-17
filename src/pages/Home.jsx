@@ -29,36 +29,35 @@ const Home = () => {
                             <div className="home__about-text">
                                 <p>
                                     Hello! I'm <span className="home__about-highlight">Sushant Kumar</span>,
-                                    a passionate software engineer based in India with a love for building
-                                    elegant solutions to complex problems.
+                                    a Computer Science Engineering undergraduate at <span className="home__about-highlight">NITK Surathkal</span> with
+                                    strong foundations in C++, data structures, and object-oriented programming.
                                 </p>
                                 <p>
-                                    I specialize in creating <span className="home__about-highlight">full-stack web applications</span> that
-                                    are not only functional but also provide exceptional user experiences.
-                                    My journey in tech began with curiosity and has evolved into a career
-                                    focused on innovation and continuous learning.
+                                    I have hands-on experience in <span className="home__about-highlight">full-stack and backend development</span>,
+                                    proficient in JavaScript, Python, SQL, Node.js, React, and MongoDB. I've worked with
+                                    REST APIs, Docker, and cloud deployment using AWS and Vercel.
                                 </p>
                                 <p>
-                                    When I'm not coding, you'll find me exploring new technologies,
-                                    contributing to open-source projects, or sharing knowledge with
-                                    the developer community.
+                                    A proactive problem-solver with demonstrated leadership experience, I combine
+                                    technical expertise and cross-functional collaboration to deliver scalable,
+                                    secure, and high-impact software solutions.
                                 </p>
                             </div>
                             <div className="home__about-highlights">
                                 <div className="home__about-highlight-card">
                                     <span className="home__about-highlight-icon">🎯</span>
                                     <h4>Problem Solver</h4>
-                                    <p>I love tackling complex challenges and finding efficient solutions</p>
+                                    <p>Strong analytical thinking with logical reasoning skills</p>
                                 </div>
                                 <div className="home__about-highlight-card">
-                                    <span className="home__about-highlight-icon">💡</span>
-                                    <h4>Continuous Learner</h4>
-                                    <p>Always exploring new technologies and best practices</p>
+                                    <span className="home__about-highlight-icon">💼</span>
+                                    <h4>MERN Stack Developer</h4>
+                                    <p>Experienced in building full-stack web applications</p>
                                 </div>
                                 <div className="home__about-highlight-card">
                                     <span className="home__about-highlight-icon">🤝</span>
-                                    <h4>Team Player</h4>
-                                    <p>Collaborative mindset with strong communication skills</p>
+                                    <h4>Leadership</h4>
+                                    <p>Head of Marketing at E-Cell & Treasurer at ACE</p>
                                 </div>
                             </div>
                         </div>

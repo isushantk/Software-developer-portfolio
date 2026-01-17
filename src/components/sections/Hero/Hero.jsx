@@ -7,9 +7,9 @@ import './Hero.css';
 
 const roles = [
     'Full Stack Developer',
-    'UI/UX Enthusiast',
+    'MERN Stack Developer',
     'Problem Solver',
-    'Open Source Contributor',
+    'CSE Student at NITK',
 ];
 
 const Hero = () => {
@@ -95,9 +95,9 @@ const Hero = () => {
                         </motion.h2>
 
                         <motion.p className="hero__description" variants={itemVariants}>
-                            I build exceptional digital experiences that combine clean code with
-                            stunning design. Currently focused on building accessible, human-centered
-                            products that make a difference.
+                            Computer Science Engineering student at NITK Surathkal with strong foundations
+                            in C++, data structures, and full-stack development. Proficient in JavaScript,
+                            Python, and the MERN stack, delivering scalable and high-impact software solutions.
                         </motion.p>
 
                         <motion.div className="hero__actions" variants={itemVariants}>
@@ -109,7 +109,7 @@ const Hero = () => {
                             <Button
                                 variant="secondary"
                                 icon={FiDownload}
-                                href="/resume.pdf"
+                                href={`${import.meta.env.BASE_URL}resume.pdf`}
                                 target="_blank"
                             >
                                 Download CV
@@ -118,16 +118,16 @@ const Hero = () => {
 
                         <motion.div className="hero__stats" variants={itemVariants}>
                             <div className="hero__stat">
+                                <div className="hero__stat-value">NITK</div>
+                                <div className="hero__stat-label">B.Tech CSE</div>
+                            </div>
+                            <div className="hero__stat">
                                 <div className="hero__stat-value">3+</div>
-                                <div className="hero__stat-label">Years Experience</div>
+                                <div className="hero__stat-label">Projects Built</div>
                             </div>
                             <div className="hero__stat">
-                                <div className="hero__stat-value">20+</div>
-                                <div className="hero__stat-label">Projects Completed</div>
-                            </div>
-                            <div className="hero__stat">
-                                <div className="hero__stat-value">15+</div>
-                                <div className="hero__stat-label">Happy Clients</div>
+                                <div className="hero__stat-value">MERN</div>
+                                <div className="hero__stat-label">Stack Expert</div>
                             </div>
                         </motion.div>
                     </motion.div>
