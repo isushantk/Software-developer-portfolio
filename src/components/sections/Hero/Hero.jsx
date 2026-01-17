@@ -140,7 +140,7 @@ const Hero = () => {
                         transition={{ duration: 0.6, delay: 0.3 }}
                     >
                         <div className="hero__photo-wrapper">
-                            <img src="/profile-photo.jpg" alt="Sushant Kumar" />
+                            <img src={`${import.meta.env.BASE_URL}profile-photo.jpg`} alt="Sushant Kumar" />
                         </div>
                     </motion.div>
                 </div>
